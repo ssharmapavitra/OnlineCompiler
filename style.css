@@ -1,0 +1,42 @@
+.head {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 0.5rem 1em;
+}
+.dropbox {
+	align-items: end;
+	display: flex;
+	margin-left: 1.8rem;
+}
+.lang {
+	margin-left: 0.35rem;
+}
+.textEditor {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1rem;
+}
+.outputBox {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1rem;
+}
+.outputBox textarea {
+	background-color: black;
+	color: white;
+}
+textarea {
+	resize: none;
+	padding: 1rem;
+}
+
+.btn {
+	background-color: rgb(255, 183, 0);
+	color: black;
+	border: 1px;
+	border-radius: 5px;
+	margin-left: 1rem;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+}
